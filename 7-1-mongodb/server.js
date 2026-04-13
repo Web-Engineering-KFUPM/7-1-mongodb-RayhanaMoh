@@ -191,7 +191,12 @@ import mongoose from "mongoose";
 const uri = "mongodb+srv://rayhanahAlobaid:Rmoh123@123@cluster0.98z7ggv.mongodb.net/TestDB"
 
 // define schema
-
+const studentSchema = new mongoose.Schema({
+    name: String,
+    age: Number,
+    major: String
+});
+const Student = mongoose.model("Student", studentSchema);
 
 // create document
 
