@@ -185,9 +185,10 @@
  */
 
 // import mongoose
+import mongoose from "mongoose";
 
 // establish connection
-
+const uri = "mongodb+srv://rayhanahAlobaid:Rmoh123@123@cluster0.98z7ggv.mongodb.net/TestDB"
 
 // define schema
 
